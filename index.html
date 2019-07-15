@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="img/logo.png" type="image/x-icon" />
+        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Flex</title>
 
@@ -36,15 +36,23 @@
         <![endif]-->
     </head>
     <body>
+        <!--================Search Area =================-->
+        <section class="search_area">
+            <div class="search_inner">
+                <input type="text" placeholder="Enter Your Search...">
+                <i class="ti-close"></i>
+            </div>
+        </section>
+        <!--================End Search Area =================-->
+        
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" style="margin: 0 auto;" href="#"><img src="img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                
+                <ul class="navbar-nav justify-content-end">
+                    <li><a href="#"><i class="icon_search"></i></a></li>
+                </ul>
             </nav>
         </header>
         <!--================End Header Menu Area =================-->
@@ -57,14 +65,14 @@
                     <!-- MAIN IMAGE -->
                         <img src="img/home-slider/slider-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYER NR. 1 -->
-                        <div class="slider_text_box">
+                        <div class="slider_text_box f1">
                             <div class="tp-caption tp-resizeme secand_text"
                                 data-x="['center','center','center','center','center','center']"
                                 data-hoffset="['100','80','80','0']"
                                 data-y="['middle','middle','middle','middle']"
                                 data-voffset="['-100','0','0','0','0']"
                                 data-fontsize="['48','48','48','28','28','22']"
-                                //data-lineheight="['50','60','60','36','36','30']"
+                                data-lineheight="['50','60','60','36','36','30']"
                                 data-width="100%"
                                 data-height="none"
                                 data-whitespace="normal"
@@ -88,14 +96,14 @@
                                 
                             </div>
 
-                            <div class="slider_text_box">
+                            <div class="slider_text_box f2">
                                 <div class="tp-caption tp-resizeme secand_text"
                                     data-x="['center','center','center','center','center','center']"
                                     data-hoffset="['100','80','80','0']"
                                     data-y="['middle','middle','middle','middle']"
                                     data-voffset="['230','0','0','0','0']"
                                     data-fontsize="['48','48','48','28','28','22']"
-                                    //data-lineheight="['50','60','60','36','36','30']"
+                                    data-lineheight="['50','60','60','36','36','30']"
                                     data-width="100%"
                                     data-height="none"
                                     data-whitespace="normal"
@@ -109,7 +117,6 @@
                                     
                                     <a href="#"><img src="img/ios.png"/></a> <a href="#"><img src="img/appstore.png"/></a>
                                 </div>
-                            
                         </div>
                     </li>
                 </ul>
@@ -241,93 +248,25 @@
         </section>
         <!--================End Latest News Area =================-->
 
+        
+
+
         <!--================Footer Area =================-->
         <footer class="footer_area" style="margin-top:50px;">
-            <div class="footer_widgets_area">
-                <div class="container">
-                    <div class="f_widgets_inner row">
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget subscribe_widget">
-                                <div class="f_w_title">
-                                    <h3>Our Newsletter</h3>
-                                </div>
-                                <p>Subscribe to our mailing list to get the updates to your email inbox.</p>
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
-                                    </span>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget twitter_widget">
-                                <div class="f_w_title">
-                                    <h3>Twitter Feed</h3>
-                                </div>
-                                <div class="tweets_feed"></div>
-                            </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget categories_widget">
-                                <div class="f_w_title">
-                                    <h3>Link Categories</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Agency</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Studio</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Studio</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Blogs</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Shop</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Home</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>About</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Services</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Work</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Privacy</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget contact_widget">
-                                <div class="f_w_title">
-                                    <h3>Contact Us</h3>
-                                </div>
-                                <a href="#">1 (234) 567-8888</a>
-                                <a href="#">info.flexinc@gmail.com</a>
-                                <p>40 Baria Sreet 133/2 <br />NewYork City, US</p>
-                                <h6>Open hours: 8.00-18.00 Mon-Fri</h6>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copy_right_area">
+            <div id="eventbrite-widget-container-65365972383"></div>
+            
+            <div class="copy_right_area" style="padding-top: 100px;">
                 <div class="container">
                     <div class="float-md-left">
-                        <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></h5>
+                        <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved , Flex Inc</h5>
                     </div>
                     <div class="float-md-right">
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Disclaimer</a>
+                                <a class="nav-link active" href="#">terms</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Privacy</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Advertisement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -365,5 +304,24 @@
         <script src="vendors/tweet/script.js"></script>
 
         <script src="js/theme.js"></script>
+        
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+        
+            window.EBWidgets.createWidget({
+                // Required
+                widgetType: 'checkout',
+                eventId: '65365972383',
+                iframeContainerId: 'eventbrite-widget-container-65365972383',
+        
+                // Optional
+                iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+            });
+        </script>
+        
     </body>
 </html>
