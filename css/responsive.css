@@ -5,6 +5,17 @@
     .testimonials_slider .owl-next {
         right: 0px;
     }
+    .f2>div {
+        top: 650px !important;
+        left:20px !important;
+    }
+    .f1>div {
+        top: 150px !important;
+        left: 20px !important;
+    }
+    .testimonials_slider .item img {
+        width: 400px !important;
+    }
 }
 @media (max-width: 1230px){
     .industries_area{
@@ -12,6 +23,18 @@
     }
     .indus_img {
         padding-right: 0px;
+    }
+    .secand_text {
+        line-height: 40px !important;
+    }
+    .f2>div {
+        top: 650px !important;
+    }
+    .f1>div {
+        top: 150px !important;
+    }
+    .testimonials_slider .item img {
+        width: 400px !important;
     }
 }
 @media (max-width: 1199px){
@@ -26,8 +49,26 @@
     .indus_text {
         padding-right: 15px;
     }
+    .testimonials_slider .item img {
+        width: 300px !important;
+    }
+    
 }
 @media (max-width: 991px){
+    .f2>div {
+        top: 650px !important;
+        left:20px !important;
+    }
+    .f1>div {
+        top: 150px !important;
+        left: 20px !important;
+    }
+    .digital_feature {
+        margin-top: 0px !important;
+    }
+    .testimonials_slider .item .media .d-flex {
+        width: 200px !important;
+    }
     .main_menu_area {
         padding: 0px 0px;
     }
@@ -84,9 +125,12 @@
     }
     .c_feature_box {
         padding: 45px 0px 25px 0px;
+        margin-top: -100px !important;
     }
     .d_feature_img {
         padding-left: 0px;
+        width: 700px;
+        margin-left: 0px !important;
     }
     .d_feature_img img{
         max-width: 100%;
@@ -196,6 +240,36 @@
     }
 }
 @media(max-width: 767px){
+    .f2>div {
+        top: 400px !important;
+        left:20px !important;
+        line-height: 0px !important;
+    }
+    .f1>div {
+        top: 100px !important;
+        left: 20px !important;
+        right: 20px !important;
+        line-height: 0px !important;
+    }
+    .f1>div>div>div>div>font {
+        font-size:18px !important;
+    }
+    .secand_text {
+        line-height: 24px !important;
+    }
+    .d_feature_img {
+        padding-left: 0px;
+        width: 535px;
+        margin-left: 0px !important;
+    }
+    .secand_text img {
+        width: 120px !important;
+        height: 40px !important;
+    }
+    .c_feature_box {
+        margin-top: 0px;
+        margin-top: -100px !important;
+    }
     .testimonials_slider .item .media {
         display: block;
     }
@@ -239,11 +313,36 @@
     }
 }
 @media(max-width: 575px){
+    .f2>div {
+        top: 320px !important;
+        left:20px !important;
+        line-height: 0px !important;
+    }
+    .f1>div {
+        top: 85px !important;
+        left: 20px !important;
+    }
+    .secand_text {
+        line-height: 20px !important;
+    }
+    .secand_text img {
+        width: 120px !important;
+        height: 40px !important;
+    }
+    .testimonials_slider .item .media {
+        display: flex !important;
+    }
     .c_feature_box {
         margin-top: 0px;
+        margin-top: -125px !important;
     }
     .creative_feature_area {
         padding-top: 50px;
+    }
+    .d_feature_img {
+        padding-left: 0px;
+        width: 550px;
+        margin-left: 0px !important;
     }
     .main_title h2 {
         font-size: 28px;
@@ -292,6 +391,58 @@
     }
 }
 @media(max-width: 480px){
+    .f2>div {
+        top: 380px !important;
+        left:20px !important;
+        line-height: 0px !important;
+    }
+    .f1>div {
+        top: 100px !important;
+        left: 20px !important;
+        right: 20px !important;
+    }
+    .f1>div>div>div>div>font {
+        font-size:12px !important;
+    }
+    .c_feature_box {
+        margin-top: 0px;
+        margin-top: -140px !important;
+    }
+    .d_feature_img {
+        padding-left: 0px;
+        width: 350px;
+        margin-left: 0px !important;
+    }
+    .digital_feature {
+        margin-top: -50px !important;
+    }
+    .main_title>h1 {
+        font-size:26px !important;
+    }
+    .d_feature_text>h3 {
+        font-size:22px !important;
+    }
+    .d_feature_text>p {
+        font-size:18px !important;
+    }
+    .media-body>h3 {
+        font-size: 26px !important;
+    }
+    .media-body>p {
+        font-size: 16px !important;
+    }
+    .d-flex {
+        display: none !important;
+    }
+    .fw-iframe {
+        width:80% !important;
+    }
+    .testimonials_area {
+        margin-top: 30px !important;
+    }
+    .testimonials_slider .item .media {
+        display: flex !important;
+    }
     .static_main_content .media{
         display: block;
     }
